@@ -10,11 +10,18 @@
     --color-primary: #007bff;
     --color-bg: #f5f5f5;
     --color-text: #222;
-    --font-main: "Inter", sans-serif;
+    --font-main: "Inter", serif;
 }
 
 body {
     font-family: var(--font-main);
+    font-size: 16px;
     background: var(--color-bg);
     color: var(--color-text);
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+
 }
